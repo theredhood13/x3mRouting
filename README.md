@@ -1,7 +1,6 @@
+# A fork of an old version of x3mRouting, hopefully compatible with older firmwares.
+
 # x3mRouting ~ Selective Routing for Asuswrt-Merlin Firmware
-[![Build Status](https://travis-ci.com/Xentrk/x3mRouting.svg?branch=master)](https://travis-ci.com/Xentrk/x3mRouting)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/561d1570ed1f4d6aab76bba172f6b31f)](https://www.codacy.com/app/Xentrk/x3mRouting?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Xentrk/x3mRouting&amp;utm_campaign=Badge_Grade)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Introduction
 The features of **x3mRouting** include four selective routing methods to choose from:
@@ -48,8 +47,6 @@ Copy and paste the command below into an SSH session:
       /usr/sbin/curl --retry 3 "https://raw.githubusercontent.com/theredhood13/x3mRouting/master/x3mRouting" -o "/opt/bin/x3mRouting" && chmod 755 /opt/bin/x3mRouting && x3mRouting
 
 This command will download and install the installation menu **x3mRouting** to the **/opt/bin** directory. The installation script is a menu with options to install the three methods described below and options to update or remove the repository. To access the installation menu, type the command **x3mRouting**.
-
-<img src="https://github.com/Xentrk/x3mRouting/blob/master/InstallationMenu.PNG" alt="drawing" width="600" height="600"/>
 
 ## x3mRouting Methods
 
